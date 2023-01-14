@@ -1,0 +1,27 @@
+@mixin shape($shape-width, $shape-height, $shape-background-size) {
+   width: $shape-width;
+   height: $shape-height;
+   background-size: $shape-background-size;
+}
+
+@mixin meet($meet-width,$meet-height,$meet-background-size,$meet-background-position){
+   width: $meet-width;
+   height: $meet-height;
+   background-size: $meet-background-size;
+   background-position: $meet-background-position; 
+}
+
+@mixin disc($disc-max-width, $disc-height, $disc-display,$disc-justify-content,$disc-gap){
+   max-width: $disc-max-width;
+   height: $disc-height;
+   display: $disc-display;
+   justify-content: $disc-justify-content;
+   gap: $disc-gap;
+}
+
+@mixin block($block-width,$block-height,$block-background-size,$block-background-position){
+   width: $block-width;
+   height: $block-height;
+   background-size: $block-background-size;
+   background-position: $block-background-position;
+}
